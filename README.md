@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **reactJS, nodeJS, redux, axios, jwt, mongoose**
 
-- 📫 How to reach me **https://github.com/deepesh-01/quiz-app**
+- 📫 How to reach me **deepeshd03938@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
