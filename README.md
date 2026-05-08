@@ -1,20 +1,60 @@
-<h1 align="center">Hi 👋, I'm Deepesh Rathod</h1>
-<h3 align="center">A passionate developer.</h3>
+# DEEPESH RATHOD
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=deepesh-01&label=Profile%20views&color=0e75b6&style=flat" alt="deepesh-01" /> </p>
+> **Founding Engineer · Tech Lead · Backend & Cloud Architecture**
+> *If the product isn't moving, move it yourself.*
 
-- 🔭 I’m currently working on [Quiz Project](https://github.com/deepesh-01/quiz-app)
+```
+INPUT  →  PROCESS  →  DATA CONTEXT  →  OUTPUT
+```
 
-- 🌱 I’m currently learning **Full-Stack Development**
+[**Portfolio**](https://v1.deepesh-engg.in) ·
+[**Résumé (PDF)**](https://v1.deepesh-engg.in/Deepesh_Rathod_Resume.pdf) ·
+[**LinkedIn**](https://www.linkedin.com/in/deepesh-rathod-315152198/) ·
+[`deepeshd03938@gmail.com`](mailto:deepeshd03938@gmail.com) ·
+Bengaluru, India
 
-- 💬 Ask me about **reactJS, nodeJS, redux, axios, jwt, mongoose**
+---
 
-- 📫 How to reach me **deepeshd03938@gmail.com**
+## What I'm doing now
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/deepesh-rathod-315152198/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/deepesh-rathod-315152198/" height="30" width="40" /></a>
-</p>
+**Founding Engineer / Tech Lead at Zoca** *(Jan 2025 — Present)*
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+- Defined the foundational AWS ECS / Fargate architecture for a multi-tenant SaaS that scaled from **90 → 1,500 customers (1,000+ paying, $1M+ ARR)**.
+- Consolidated 3 servers + 50 — 60 Lambdas into **6 autoscaling services + 10 workers + 10 Lambdas**.
+- Led **zero-failure migration** of all legacy users — no data loss, no production incidents, no rollbacks.
+- Built an **AI-native engineering toolchain** (Claude Code + custom Metabase MCP + AWS CLI) that compresses outage and customer-issue RCAs from **2 — 3 hours → ~5 minutes** — a 25 — 35× speedup that compounds across every incident.
+- Designed **tenant isolation + database-layer audit logging** as the foundation for SOC2 / HIPAA readiness across all tenant operations.
+- Helped scale engineering from **2 — 3 → 15 — 18 engineers** — ran 20+ technical interviews, served as Senior Buddy for 4+ engineers (mentees shipping bug fixes in week 1, end-to-end features in their first month).
+
+> Earlier: Founding Engineer at Zoca (formerly Chrone), Jun 2023 — Dec 2024 — distributed media pipeline (1,000+ uploads/day across 900+ GB S3), full AWS ownership through a leadership transition, Scheduling v1 end-to-end.
+
+## Recent open work
+
+| Repo | What it is |
+| --- | --- |
+| [**v1.deepesh-engg.in**](https://v1.deepesh-engg.in) | Brutalist "Boring Markdown" portfolio. Zero build, zero framework. One HTML, one CSS, one JS file, plain Markdown. Served behind Cloudflare Tunnel. |
+| [`resume-bot`](https://github.com/deepesh-01/resume-bot) | Telegram bot that tailors résumés to job descriptions using the Claude Code CLI. |
+| [`job-intake`](https://github.com/deepesh-01/job-intake) | Daily job-board scraper → Google Sheet → polished triage + tailoring webapp. Sibling to `resume-bot`. |
+
+## Weekend architectural exploration
+
+- **AI-Powered PR Review** — Slack + Git + Claude pipeline running LLM-powered sentiment analysis and technical review on PRs. Reviewed 30 PRs in the first 3 days vs. ~15 baseline manually — 2× throughput with improved consistency.
+- **WeLog** *(in UAT)* — collaborative real-time journaling for partners: auth, signup, encrypted private data, real-time shared entries with per-user data isolation.
+- **MarketSignal AI** — real-time trading automation engine ingesting Angel One market data on a 15-min cron, evaluating conditions, delivering Telegram alerts. Full pipeline on local infra, no third-party orchestration.
+- **Private Cloud on Raspberry Pi** — self-hosted server stack via Cloudflare Tunnels (no public IPs, no port forwarding); 2+ months continuous uptime, 3 — 5s cold boot.
+
+## Stack I actually ship
+
+**Backend:** TypeScript · JavaScript · Node.js · NestJS · Express · Python · Django · Django REST Framework
+**Frontend:** React · Redux
+**Cloud / Infra:** AWS (ECS, Fargate, EC2, SES, CloudTrail, SQS, IAM) · Docker · CI/CD pipelines
+**Data:** PostgreSQL · MongoDB
+**AI / Automation:** Claude Code · custom MCP servers · Retell / Voice AI · AI-agent observability
+**Architecture:** Multi-tenant SaaS · microservices · monorepo · zero-downtime migrations · tenant isolation & RBAC
+
+## How to read this profile
+
+Most of the older repos here are coursework, interview assignments, and forks from when I was learning the trade. The work I'd actually point at lives behind the company (Zoca / Chrone) and on the portfolio site.
+
+→ Start at [**v1.deepesh-engg.in**](https://v1.deepesh-engg.in) for the long-form story.
+→ Or read the [**Résumé**](https://v1.deepesh-engg.in/Deepesh_Rathod_Resume.pdf) for the executive version.
