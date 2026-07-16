@@ -1,60 +1,59 @@
 # DEEPESH RATHOD
 
-> **Founding Engineer · Tech Lead · Backend & Cloud Architecture**
+> **AI / Agent Engineer** · LLM orchestration · evals & guardrails · Claude Code + custom MCP
 > *If the product isn't moving, move it yourself.*
 
 ```
-INPUT  →  PROCESS  →  DATA CONTEXT  →  OUTPUT
+DIRECT AGENTS  →  REVIEW CRITICALLY  →  OWN CORRECTNESS  →  SHIP
 ```
 
-[**Portfolio**](https://v1.deepesh-engg.in) ·
-[**Résumé (PDF)**](https://v1.deepesh-engg.in/Deepesh_Rathod_Resume.pdf) ·
+[**Portfolio**](https://deepesh-engg.in) ·
+[**paul (live)**](https://deepesh-engg.in/paul) ·
+[**Scout**](https://deepesh-engg.in/scout) ·
+[**Résumé (PDF)**](https://deepesh-engg.in/Deepesh_Rathod_Resume.pdf) ·
 [**LinkedIn**](https://www.linkedin.com/in/deepesh-rathod-315152198/) ·
 [`deepeshd03938@gmail.com`](mailto:deepeshd03938@gmail.com) ·
 Bengaluru, India
 
 ---
 
-## What I'm doing now
+## What I build
 
-**Founding Engineer / Tech Lead at Zoca** *(Jan 2025 — Present)*
+Backend engineer who turns LLMs into **reliable, observable, load-bearing production components** — not demos. ~4 years across backend/cloud, now specialised in agent systems: orchestration, evals, guardrails, and observability. Daily **Claude Code + Cursor** user — I treat prompts, agents, and inference like any other production dependency: typed, tested, traced, and guard-railed. Judgment over typing speed.
 
-- Defined the foundational AWS ECS / Fargate architecture for a multi-tenant SaaS that scaled from **90 → 1,500 customers (1,000+ paying, $1M+ ARR)**.
-- Consolidated 3 servers + 50 — 60 Lambdas into **6 autoscaling services + 10 workers + 10 Lambdas**.
-- Led **zero-failure migration** of all legacy users — no data loss, no production incidents, no rollbacks.
-- Built an **AI-native engineering toolchain** (Claude Code + custom Metabase MCP + AWS CLI) that compresses outage and customer-issue RCAs from **2 — 3 hours → ~5 minutes** — a 25 — 35× speedup that compounds across every incident.
-- Designed **tenant isolation + database-layer audit logging** as the foundation for SOC2 / HIPAA readiness across all tenant operations.
-- Helped scale engineering from **2 — 3 → 15 — 18 engineers** — ran 20+ technical interviews, served as Senior Buddy for 4+ engineers (mentees shipping bug fixes in week 1, end-to-end features in their first month).
+## Flagship agent work
 
-> Earlier: Founding Engineer at Zoca (formerly Chrone), Jun 2023 — Dec 2024 — distributed media pipeline (1,000+ uploads/day across 900+ GB S3), full AWS ownership through a leadership transition, Scheduling v1 end-to-end.
+- [**paul**](https://deepesh-engg.in/paul) *(live)* — a **multi-agent content pipeline** behind [@_paultheoctopus](https://www.instagram.com/_paultheoctopus): agents research, generate, and ship content end-to-end, and it shows its work.
+- [**Scout**](https://deepesh-engg.in/scout) — a **least-privilege multi-agent pipeline** for funding-signal outreach: harvest → validate → enrich → draft, with an audit trail and human-in-the-loop on every send.
 
-## Recent open work
+## AI-native platform work — Zoca (formerly Chrone) · Founding Member · Lead Architect
+
+- Built the **AI-native engineering toolchain**: Claude Code + a **custom Metabase MCP server** + AWS CLI that compressed incident RCAs from **2–3 hours → ~5 minutes**.
+- Authored the **LLM Guardrails** safety layer (typed serializers + semantic validators) — made model output safe on load-bearing paths.
+- Established **deterministic LLM testing** (invariants over examples) — production test discipline for non-deterministic models.
+- Built **real-time AI-agent observability** — latency, error, and behavioral-drift signals across live inference; integrated Retell / Voice AI.
+- Designed the **Master-Worker orchestration substrate** (Redis + NestJS workers + Lambda callbacks) to fan out long-running and agent-driven jobs reliably.
+- All on a load-bearing multi-tenant platform scaling **90 → 1,500+ customers** (1,000+ paying, **$1M+ → $3.5M ARR**) on AWS ECS/Fargate; led the Scheduling & Payments pod, ran 20+ interviews, mentored 4+ engineers.
+
+## Open agent repos
 
 | Repo | What it is |
 | --- | --- |
-| [**v1.deepesh-engg.in**](https://v1.deepesh-engg.in) | Brutalist "Boring Markdown" portfolio. Zero build, zero framework. One HTML, one CSS, one JS file, plain Markdown. Served behind Cloudflare Tunnel. |
-| [`resume-bot`](https://github.com/deepesh-01/resume-bot) | Telegram bot that tailors résumés to job descriptions using the Claude Code CLI. |
-| [`job-intake`](https://github.com/deepesh-01/job-intake) | Daily job-board scraper → Google Sheet → polished triage + tailoring webapp. Sibling to `resume-bot`. |
-
-## Weekend architectural exploration
-
-- **AI-Powered PR Review** — Slack + Git + Claude pipeline running LLM-powered sentiment analysis and technical review on PRs. Reviewed 30 PRs in the first 3 days vs. ~15 baseline manually — 2× throughput with improved consistency.
-- **WeLog** *(in UAT)* — collaborative real-time journaling for partners: auth, signup, encrypted private data, real-time shared entries with per-user data isolation.
-- **MarketSignal AI** — real-time trading automation engine ingesting Angel One market data on a 15-min cron, evaluating conditions, delivering Telegram alerts. Full pipeline on local infra, no third-party orchestration.
-- **Private Cloud on Raspberry Pi** — self-hosted server stack via Cloudflare Tunnels (no public IPs, no port forwarding); 2+ months continuous uptime, 3 — 5s cold boot.
+| [`paul-model`](https://github.com/deepesh-01/paul-model) | The multi-agent system behind paul — orchestration, content engine, and the prediction model. |
+| [`resume-bot`](https://github.com/deepesh-01/resume-bot) | Telegram bot that tailors résumés to JDs by **directing the Claude Code CLI** through a tailor → critic → refine loop. |
+| [`voice-ai-observability-copilot`](https://github.com/deepesh-01/voice-ai-observability-copilot) | **Agent-observability copilot** for Voice AI: ingests transcripts → KPI scoring → failure flags → recommendations, embedded in HighLevel. |
+| [`job-intake`](https://github.com/deepesh-01/job-intake) | Job-board scraper → scoring → triage webapp; Claude-API tailoring. Sibling to `resume-bot`. |
 
 ## Stack I actually ship
 
-**Backend:** TypeScript · JavaScript · Node.js · NestJS · Express · Python · Django · Django REST Framework
-**Frontend:** React · Redux
-**Cloud / Infra:** AWS (ECS, Fargate, EC2, SES, CloudTrail, SQS, IAM) · Docker · CI/CD pipelines
-**Data:** PostgreSQL · MongoDB
-**AI / Automation:** Claude Code · custom MCP servers · Retell / Voice AI · AI-agent observability
-**Architecture:** Multi-tenant SaaS · microservices · monorepo · zero-downtime migrations · tenant isolation & RBAC
+**AI / Agents:** Claude Code · Cursor · custom MCP servers · multi-agent orchestration · LLM guardrails · evals / deterministic LLM testing · agent observability · Retell / Voice AI
+**Backend:** Python (FastAPI · Django · Flask) · TypeScript · Node.js · NestJS · Express
+**Cloud / Infra:** AWS (ECS · Fargate · Lambda · SQS · IAM · CloudTrail) · Docker · CI/CD
+**Data:** PostgreSQL · MongoDB · Redis
+**Architecture:** Multi-tenant SaaS · microservices · zero-downtime migrations · tenant isolation & RBAC
 
 ## How to read this profile
 
-Most of the older repos here are coursework, interview assignments, and forks from when I was learning the trade. The work I'd actually point at lives behind the company (Zoca / Chrone) and on the portfolio site.
+Older repos here are coursework and interview assignments from when I was learning the trade. The work I'd point at is the agent systems above and the long-form write-ups on the portfolio.
 
-→ Start at [**v1.deepesh-engg.in**](https://v1.deepesh-engg.in) for the long-form story.
-→ Or read the [**Résumé**](https://v1.deepesh-engg.in/Deepesh_Rathod_Resume.pdf) for the executive version.
+→ Start at [**deepesh-engg.in**](https://deepesh-engg.in) for the full story, or the [**Résumé**](https://deepesh-engg.in/Deepesh_Rathod_Resume.pdf) for the executive version.
